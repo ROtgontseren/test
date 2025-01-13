@@ -150,8 +150,11 @@
 	@media (max-width: 1024px) and (min-width: 601px) {
 		.card-container {
 			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
+			flex-flow: row;
+			gap: 1rem;
+			padding: 0.5rem;
+			overflow-x: auto;
+			margin-bottom: 1rem;
 		}
 
 		.card {
@@ -170,11 +173,14 @@
 	@media (min-width: 1025px) {
 		.card-container {
 			display: flex;
-			justify-content: space-between;
+			flex-flow: row;
+			gap: 1rem;
+			padding: 0.5rem;
+			overflow-x: auto;
+			margin-bottom: 1rem;
 		}
-
 		.card {
-			width: 250px;
+			width: 200px;
 		}
 
 		h2 {
