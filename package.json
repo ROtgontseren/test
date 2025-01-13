@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
+		"build": "svelte-kit build",
 		"preview": "vite preview",
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
@@ -28,6 +28,7 @@
 		"vitest": "^2.0.4"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^6.7.2"
+		"@fortawesome/fontawesome-free": "^6.7.2",
+		"@sveltejs/adapter-vercel": "^5.5.2"
 	}
 }
